@@ -163,7 +163,7 @@ late Future<Map<String,dynamic>> weather;
               height: 120,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount:39,
+                itemCount:6,
                 itemBuilder: (context, index) {
                   final hourlyForecast = data['list'][index+1];
                   final hourlySky = data ['list'][index+1]['weather'][0]['main'];
